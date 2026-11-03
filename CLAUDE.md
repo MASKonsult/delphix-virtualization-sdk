@@ -230,3 +230,5 @@ Behavioral notes (from the docs): `optional_snapshot_parameters` is `None` for s
 - **VDB snapshot:** `virtual.pre_snapshot` (optional) → engine snapshots → `virtual.post_snapshot` → `SnapshotDefinition`.
 - **VDB delete:** `virtual.stop` (if running) → `virtual.unconfigure` → `virtual.cleanup` → engine unmounts/destroys the clone.
 - **Plugin upgrade:** for each stored object the engine calls the matching `upgrade.*` migration (old dict in → new dict out) in `migration_id` order.
+
+@AGENTS.md
